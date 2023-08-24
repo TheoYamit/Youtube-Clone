@@ -4,89 +4,30 @@
     <title> 
       Youtube Clone ezpz
     </title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <style>
-      
-      p {
-        font-family: Roboto, Arial;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      .thumbnail1 {
-        width: 100%;
-        border-radius: 10px;
-      }
-
-      .search-bar {
-        display: block;
-      }
-
-      .grid-for-videos {
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 50px;
-        column-gap: 10px;
-
-
-
-      }
-
-      .video1-title {
-        margin-top: 0;
-        font-size: 16px;
-        font-weight: 500;
-        color: #0F0F0F;
-        line-height: 20px;
-        margin-bottom: 10px;
-      }
-
-      .video1-author,
-      .video1-stats {
-        font-size: 14px;
-        color: #606060;
-      }
-
-      .video1-author {
-        margin-bottom: 3px;
-      }
-
-      .first-div {
-        margin-right: 15px;
-      }
-
-      .thumbnail-row {
-        margin-bottom: 10px;
-      } 
-
-      .video-info-grid {
-        display: grid;
-        grid-template-columns: 50px 1fr;
-      }
-
-      .channel-picture {
-       
-      }
-
-      .video-info {
-        
-      }
-
-      .profile-picture {
-        width: 40px;
-        border-radius: 50px;
-
-      }
-      
     
-    </style>
+    <link rel="stylesheet" href="video-styles.css"> 
+    <link rel="stylesheet" href="header-styles.css">
+    <link rel="stylesheet" href="general-styles.css">
   </head>
-  <body>
-    
-    <input class="search-bar" type="text" placeholder="Search"> 
+  
 
+
+  <body>
+
+    <div class="header">
+      <div class="left-header"></div>
+      <div class="middle-header"> 
+        <input class="search-bar" type="text" placeholder="Search"> 
+      </div>
+      <div class="right-header"></div>
+      
+    </div>
+    
+    
     <div class="grid-for-videos">
       <div class="first-div">
         <div class="thumbnail-row"> 
@@ -99,7 +40,7 @@
           <div class="video-info">
             <p class="video1-title">Best Fails of the Year (So Far) 2023</p>
             <p class="video1-author">Fail Army
-              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; fill: #606060">
+              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; margin-bottom: 1px; fill: #606060">
                 <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"/>
               </svg>
             </p>
@@ -119,7 +60,7 @@
           <div class="video-info">
             <p class="video1-title">Every Country on Earth Fights for $250,000!</p>
             <p class="video1-author">MrBeast
-              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; fill: #606060">
+              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; margin-bottom: 1px; fill: #606060">
                   <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"/>
               </svg>
             </p>
@@ -139,7 +80,7 @@
           <div class="video-info">
             <p class="video1-title">Overnight in the World's Loneliest Capsule</p>
             <p class="video1-author">Bernardo Bacalhau
-              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; fill: #606060">
+              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; margin-bottom: 1px; fill: #606060">
                 <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"/>
               </svg>
             </p>
@@ -159,7 +100,7 @@
           <div class="video-info">
             <p class="video1-title">Key witness flips: 'This is going to cause a real problem for Trump' legal team.</p>
             <p class="video1-author">MSNBC
-              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; fill: #606060">
+              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; margin-bottom: 3px; fill: #606060">
                   <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"/>
               </svg>
             </p>
@@ -179,7 +120,7 @@
           <div class="video-info">
             <p class="video1-title">How A Nuclear War Will Start - Minute by Minute</p>
             <p class="video1-author">Kurzgesagt &#8211; In a Nutshell
-              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; fill: #606060">
+              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; margin-bottom:3px; fill: #606060">
                 <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"/>
               </svg>
             </p>
@@ -199,7 +140,7 @@
           <div class="video-info">
             <p class="video1-title">The Next Global Superpower Isn't Who You Think &#124; Ian Bremmer &#124; TED</p>
             <p class="video1-author">TED
-              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; fill: #606060">
+              <svg height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" style="vertical-align: middle; margin-left: -5px; margin-bottom: 3px; fill: #606060">
                   <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"/>
               </svg>
             </p>

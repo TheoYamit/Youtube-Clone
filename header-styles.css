@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    justify-content: space-between;
+}
+
+.left-header {
+    width: 169px;
+    background-color: lightblue;
+}
+
+.middle-header {
+    flex: 3;
+    background-color: lightpink;
+    margin-left: 150px;
+    margin-right: 150px;
+    max-width: 600px;
+}
+
+.right-header {
+    width: 200px;
+    background-color: lightblue;
+
+}
+
+.search-bar {
+  
+}
+  
