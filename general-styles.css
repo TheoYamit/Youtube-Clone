@@ -247,6 +247,13 @@ body {
     cursor:pointer; 
 }
 
+.sixth-sidebar {
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(224, 224, 224);
+    margin-bottom: 12px;
+}
+
 .parent-container {
     display: flex;
     position: fixed;
