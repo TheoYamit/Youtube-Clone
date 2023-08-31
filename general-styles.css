@@ -23,11 +23,12 @@ body {
     width: 225px;
 }
 
-@media (max-width:900px) {
+@media (max-width:1200px) {
     .sidebar {
       display: none;
     }
-  }
+}
+
 
 .sidebar button:active {
     background-color: #cecdcd;
@@ -273,7 +274,8 @@ body {
 @media (max-width:1200px) {
     .parent-container {
       position: fixed;
-      left: 0px;
+      left: 26px;
+      right: 45px;
     }
   }
   @media (max-width:650px) {
