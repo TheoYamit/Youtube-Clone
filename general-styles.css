@@ -23,6 +23,12 @@ body {
     width: 225px;
 }
 
+@media (max-width:900px) {
+    .sidebar {
+      display: none;
+    }
+  }
+
 .sidebar button:active {
     background-color: #cecdcd;
 }
@@ -263,6 +269,19 @@ body {
     top: 70px;
     height: 35px;
 }
+
+@media (max-width:1200px) {
+    .parent-container {
+      position: fixed;
+      left: 0px;
+    }
+  }
+  @media (max-width:650px) {
+    .grid-for-videos {
+      position: fixed;
+      left: 0px;
+    }
+  }
 
 .nav-bar {
     display: flex;
