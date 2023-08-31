@@ -8,11 +8,16 @@
 .grid-for-videos {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 50px;
+  row-gap: 60px;
   column-gap: 10px;
+  margin-top: 35px;
+  margin-right: 25px;
+}
 
-
-
+@media (max-width:750px) {
+  .grid-for-videos {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .video1-title {

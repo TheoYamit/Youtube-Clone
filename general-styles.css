@@ -23,6 +23,10 @@ body {
     width: 225px;
 }
 
+.sidebar button:active {
+    background-color: #cecdcd;
+}
+
 .first-sidebar {
     border-bottom: solid;
     border-bottom-width: 1px;
@@ -258,7 +262,6 @@ body {
     position: fixed;
     top: 70px;
     height: 35px;
-
 }
 
 .nav-bar {
